@@ -542,6 +542,7 @@ body.dark-mode .lantern-image img {
 /* smaller screen*/
 @media screen and (max-width: 480px) {
     .lantern-top {
+        align-items: center;
         flex-direction: column;
         gap: 10px;
         padding: 5px 10px;
@@ -549,12 +550,19 @@ body.dark-mode .lantern-image img {
     .lantern-image,
     .riddle-box {
         width: 95%;
+        justify-content: center;
+        display: flex;
+        text-align: center;
     }
     .lantern-image img {
         width: 100%;
+        max-width: 300px;
+        height: auto;
+        display: block;
     }
     .riddle-box {
         padding: 15px;
+        width: 15px;
     }
     .lantern-about{
         padding: 15px;
