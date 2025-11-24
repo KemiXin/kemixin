@@ -562,7 +562,6 @@ body.dark-mode .lantern-image img {
     }
     .riddle-box {
         padding: 15px;
-        width: 15px;
     }
     .lantern-about{
         padding: 15px;
@@ -580,4 +579,5 @@ body.dark-mode .lantern-image img {
         padding: 10px;
     }
 }
+
 
