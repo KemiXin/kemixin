@@ -506,4 +506,36 @@ body.dark-mode .lantern-image img {
     border-radius: 8px;
     border: none;
     cursor: pointer;
+
+}
+
+/*addition responsive*/
+
+@media screen and (max-width: 768px) {
+    .lantern-top {
+        flex-direction: column;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .lantern-image,
+    .riddle-box {
+        width: 100%;
+    }
+
+    .lantern-image img {
+        width: 100%;
+    }
+    .riddle-box {
+        padding: 15px;
+    }
+    .lantern-about {
+        padding: 15px;
+    }
+    h1, h2 {
+        font-size: 1.5em;
+    }
+    p {
+        font-size: 1em;
+    }
 }
