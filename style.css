@@ -547,8 +547,7 @@ body.dark-mode .lantern-image img {
         gap: 10px;
         padding: 5px 10px;
     }
-    .lantern-image,
-    .riddle-box {
+    .lantern-image {
         width: 95%;
         justify-content: center;
         display: flex;
@@ -562,22 +561,41 @@ body.dark-mode .lantern-image img {
     }
     .riddle-box {
         padding: 15px;
+        max-width: 400px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        box-sizing: border-box;
+        width: 95%;
     }
     .lantern-about{
         padding: 15px;
         font-size: 1rem;
         line-height: 1.5;
     }
-    h1,h2 {
+    .riddle-box h2 {
         font-size: 1.3em;
+        margin-bottom: 10px;
+    }
+
+    .riddle-box p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+         margin-bottom: 10px;
+    }
+    #riddle-btn {
+        width: 90%;
+        max-width: 250px;
+        padding: 10px;
+    }
+    h1, h2 {
+        font-size: 1.3rem;
     }
     p {
         font-size: 1rem;
     }
-    #riddle-btn {
-        width: 90%;
-        padding: 10px;
-    }
 }
+
 
 
