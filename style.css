@@ -440,59 +440,6 @@ footer {
         width: 70%;
     }
 }
-@media screen and (max-width: 480px) {
-    .autumn-top {
-        flex-direction: column;
-        align-items: center;
-        gap: 15px;
-        padding: 10px;
-    }
-
-    /* Images and text box full width */
-    .autumn-images,
-    .autumn-about {
-        width: 95%;
-        margin: 0 auto;
-    }
-
-    /* About text box */
-    .autumn-about {
-        padding: 15px;
-        font-size: 1rem;         
-        line-height: 1.6;
-        text-align: justify;
-        box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
-        background-color: rgba(231, 177, 151, 0.9);
-        border-radius: 12px;
-    }
-
-    /* Images scale properly */
-    .autumn-images img {
-        width: 100%;
-        height: auto;
-        border-radius: 12px;
-        box-shadow: 2px 2px 6px rgba(0,0,0,0.3);
-    }
-
-    /* Funfact section */
-    .autumn-funfact {
-        width: 95%;
-        padding: 15px;
-        margin: 20px auto;
-    }
-
-    #funfact-btn {
-        width: 90%;
-    }
-
-    h1, h2 {
-        font-size: 1.3em;
-    }
-
-    p {
-        font-size: 1rem;
-    }
-}
 /*additional contact css*/
 .contact-top {
     display:flex;
@@ -641,6 +588,7 @@ body.dark-mode .lantern-image img {
         font-size: 1rem;
     }
 }
+
 
 
 
