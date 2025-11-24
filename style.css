@@ -580,3 +580,39 @@ body.dark-mode .lantern-image img {
         padding: 10px;
     }
 }
+
+@media screen and (max-width: 480ox) {
+    .autumn-top{
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        padding: 10px;
+    }
+    .autumn-images,
+    .autumn-about {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+    .autumn-about {
+        padding: 15px;
+        font-size: 1rem;
+        line-height: 1.6;
+        text-align: justify;
+    }
+
+    h1, h2 {
+        font-size: 1.3em;
+    }
+    p{
+        font-size: 1rem;
+    }
+    #funfact-btn {
+        width: 95%;
+    }
+    .autumn-funfact {
+        width:95%;
+        padding:15px;
+        margin: 20px auto;
+    }
+}
