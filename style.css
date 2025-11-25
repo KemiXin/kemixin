@@ -588,6 +588,31 @@ body.dark-mode .lantern-image img {
         font-size: 1rem;
     }
 }
+/* Footer credits responsive */
+footer .credits {
+    font-size: 0.85rem;
+    line-height: 1.4;
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer .credits a {
+    color: #ffc252;
+    text-decoration: none;
+}
+
+footer .credits a:hover {
+    text-decoration: underline;
+}
+
+/* For small screens */
+@media screen and (max-width: 480px) {
+    footer .credits {
+        font-size: 0.75rem;
+        line-height: 1.3;
+    }
+}
+
 
 
 
